@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<!-- 设置字体为20pt，文本框结尾处绘制图片  -->
+	<TextView
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="北京林业大学"
+	android:textColor="#0f0"
+	android:textSize="15pt"
+	android:drawableEnd="@drawable/ic_launcher"
+	/>
+	<!-- 设置中间省略， 所有字母大写 -->
+	<TextView
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:singleLine="true" 
+	android:text="学校简介"
+	android:textSize="12pt"
+	android:ellipsize="middle"
+	android:textAllCaps="true"
+	/>
+	<!-- 对邮件、电话增加链接 -->
+	<TextView
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:text="北京林业大学时教育部直属、教育部与国家林业局共建的全国重点大学。学校办学历史可追溯到1902年的京师大学堂农业科林学目。1985年更名为北京林业大学。1996年被国家列为首批“211工程重点建设的高校，截止2014年12月，学校在校人数31356人，其中本科生13235人，研究生4819人"
+	android:textSize="6pt"
+	
+	/>
+	<TextView
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="各类统计数据截至：2014年12月31日"
+	android:textColor="#f00"
+	android:textSize="6pt"
+	android:gravity="right"
+	/>
+	<TextView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="地址：北京市海淀区清华东路35号 邮政编码：100083"
+	android:textSize="8pt"
+	/>
+	<TextView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Email:service@bjfu.edu.cn,电话：010-6233827"
+	android:textSize="6pt"
+	android:autoLink="email|phone"
+	/>
+	<TextView 
+	    android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+	
+		android:background="@drawable/bjfu"
+	    />
+	
+</LinearLayout>

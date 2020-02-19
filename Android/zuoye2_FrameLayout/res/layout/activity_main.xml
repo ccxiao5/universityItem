@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	 <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="151001215_程虎威"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+	 <TableLayout
+	     android:id="@+id/TableLayout0"
+	     android:layout_width="fill_parent"
+	     android:layout_height="90sp"/>
+
+	
+    <TableLayout	
+        android:id="@+id/TableLayout1"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:stretchColumns="1,2,3" 			
+        >
+        <Button
+            android:id="@+id/ok1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="清除" />
+        <TableRow >
+        <Button 
+        	android:id="@+id/ok2"
+        	android:layout_width="120sp"
+        	android:layout_height="50sp"
+        	android:text="/"
+     		/>
+        <Button 
+        	android:id="@+id/ok3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="7"
+     		/>
+        <Button 
+        	android:id="@+id/ok4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="8"
+     		/>
+        <Button 
+        	android:id="@+id/ok5"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="9"
+     		/>
+    </TableRow>
+    </TableLayout>
+    
+    
+    <TableLayout	
+        android:id="@+id/TableLayout2"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:stretchColumns="1,2,3" 			
+        >
+        <TableRow >
+        <Button 
+        	android:id="@+id/ok7"
+        	android:layout_width="120sp"
+        	android:layout_height="50sp"
+        	android:text="*"
+     		/>
+        <Button 
+        	android:id="@+id/ok8"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="4"
+     		/>
+        <Button 
+        	android:id="@+id/ok9"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="5"
+     		/>
+        <Button 
+        	android:id="@+id/ok10"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="6"
+     		/>
+    </TableRow>
+    </TableLayout>
+   
+    
+    <TableLayout	
+        android:id="@+id/TableLayout3"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:stretchColumns="1,2,3" 			
+        >
+        <TableRow >
+        <Button 
+        	android:id="@+id/ok11"
+        	android:layout_width="120sp"
+        	android:layout_height="50sp"
+        	android:text="-"
+     		/>
+        <Button 
+        	android:id="@+id/ok12"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="1"
+     		/>
+        <Button 
+        	android:id="@+id/ok13"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="2"
+     		/>
+        <Button 
+        	android:id="@+id/ok14"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="3"
+     		/>
+    </TableRow>
+    </TableLayout>
+    
+    
+     <TableLayout	
+        android:id="@+id/TableLayout4"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:stretchColumns="1,2,3" 			
+        >
+        <TableRow >
+        <Button 
+        	android:id="@+id/ok15"
+        	android:layout_width="120sp"
+        	android:layout_height="50sp"
+        	android:text="+"
+     		/>
+        <Button 
+        	android:id="@+id/ok16"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="."
+     		/>
+        <Button 
+        	android:id="@+id/ok17"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="0"
+     		/>
+        <Button 
+        	android:id="@+id/ok18"
+        	android:layout_width="wrap_content"
+        	android:layout_height="50sp"
+        	android:text="="
+     		/>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
+

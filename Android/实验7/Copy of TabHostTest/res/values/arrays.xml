@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="name">
+		<item>猪八戒</item>
+		<item>孙悟空</item>
+		<item>女儿国国王</item>
+		<item>白骨精</item>
+		<item>东海龙女</item>
+		<item>蜘蛛精</item>
+		<item>沙僧</item>
+		<item>白龙马</item>
+		<item>太上老君</item>
+	</string-array>
+</resources>

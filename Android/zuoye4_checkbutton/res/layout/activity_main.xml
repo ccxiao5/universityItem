@@ -1,0 +1,67 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="性别："
+            android:textSize="30px"
+             />
+
+         <RadioGroup
+            android:id="@+id/rg"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/male"
+				android:text="男"
+				android:checked="true"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/female"
+				android:text="女"
+			/>
+		</RadioGroup>
+	</TableRow>	
+	<TableRow>
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="喜欢的颜色:"
+			android:textSize="30px"
+		/>
+
+		<LinearLayout android:layout_gravity="center_horizontal"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<CheckBox android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/red"
+				android:text="红色"
+				android:checked="true"
+			/>
+			<CheckBox android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/blue"
+				android:text="蓝色"
+			/>
+			<CheckBox android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/green"
+				android:text="绿色"
+			/>
+		</LinearLayout>
+	</TableRow>
+<TextView 
+   	android:id="@+id/show"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+        
+</TableLayout>

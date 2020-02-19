@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, StyleResTest!</string>
+	<string name="app_name">样式资源测试</string>
+	<string name="style1">程虎威</string>
+	<string name="style2">151001215</string>
+	<string name="style3">EditText</string>
+</resources>

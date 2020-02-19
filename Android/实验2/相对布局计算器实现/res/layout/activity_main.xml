@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<TableLayout
+	 	android:stretchColumns="0,1,2"
+		android:layout_width="fill_parent"
+		android:layout_height="40sp"
+	 	>
+		 <TableRow >
+			<EditText
+			    android:id="@+id/et1"
+			    android:layout_width="wrap_content"
+				android:layout_height="40sp"/>	
+			<EditText
+			    android:id="@+id/et2"
+			    android:layout_width="wrap_content"
+				android:layout_height="40sp"/>
+			<EditText 
+			    android:id="@+id/et3"
+			    android:layout_width="wrap_content"
+				android:layout_height="40sp"/>
+			</TableRow>
+		 
+	</TableLayout>
+	<Button
+	    android:id="@+id/bt1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="清除" />
+
+	<Button
+	    android:id="@+id/bt2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="除" />
+
+	<Button
+	    android:id="@+id/bt3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="乘" />
+
+	<Button
+	    android:id="@+id/bt4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="减" />
+
+	<Button
+	    android:id="@+id/bt5"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="加" />
+
+	<Button
+	    android:id="@+id/bt6"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="计算" />
+	<TextView  
+	    android:id="@+id/tv1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="程虎威151001215"
+	    android:textSize="30sp"/>
+	    
+</LinearLayout>
